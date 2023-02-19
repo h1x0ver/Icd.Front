@@ -1,0 +1,219 @@
+
+.reg-form
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://studybreaks.com/wp-content/uploads/2018/04/Medium-e1524085411129.jpeg?ezimgfmt=ngcb6/notWebP');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-container img{
+    width: 350px;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.reg-part
+{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.naming
+{
+    width: 50%;
+    min-height: 70vh;
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.logo-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.logo-container h1{
+    margin-left: 20px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 32px;
+}
+.logo-container img{
+    width: 120px;
+    height: 100px;
+}
+.numing
+{
+    width: 50%;
+    min-height: 70vh;
+    background-color: rgba(0, 0, 0, 0.17);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rg-field
+{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.rg-lbl
+{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: white;
+}
+
+.rg-inp
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.rg-inp:focus
+{
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.rg-sub-inp
+{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.rg-sub-inp:hover
+{
+    font-size: 25px;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.inpp:hover
+{
+    font-size: 20px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.inpp
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.reg-err
+{
+    color: #7c0000;
+    font-size: 15px;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.slct
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.slct select
+{
+    width: 20%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    background-color: white !important;
+}
+
+.slct input
+{
+    width: 75%;
+}
+
+
+
+@media(max-width:900px)
+{
+    .reg-part
+    {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .naming,
+    .numing
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 95%;
+        border-radius: 0%;
+        padding-left: 0;
+    }
+    .rg-inp:focus
+    {
+        margin-left: 0px;
+    }
+    .numing
+    {
+        margin-bottom: 20px;
+    }
+    .rg-field
+    {
+        width: 95%;
+    }
+}

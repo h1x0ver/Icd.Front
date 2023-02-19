@@ -1,0 +1,235 @@
+.heading-link {
+    text-align: center;
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20210306/pngtree-purple-abstract-paint-brush-banner-background-image_580594.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.heading-link h3 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.heading-link p {
+    font-size: 2rem;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.heading-link p a {
+    color: #5c0075;
+}
+
+.heading-link p a:hover {
+    text-decoration: underline;
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.custom-select select{
+    background-color: black;
+    border-bottom: 1px solid silver;
+    color: white;
+}
+.custom-select select option{
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    color: white;
+
+    cursor: pointer;
+    background: #a43f00;
+    text-transform: capitalize;
+    transition: 0.2s all ease-in-out;
+}
+
+.btn:hover {
+    background: rgba(148, 0, 0, 0.9);
+    color: white;
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 2rem 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header .logo {
+    margin-right: auto;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #444;
+    font-weight: bolder;
+
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.header .logo i {
+    color: #0eb582;
+}
+
+.header .   navbar {
+    position: relative;
+}
+
+.header .navbar #close-navbar {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 4rem;
+    cursor: pointer;
+    color: #444;
+    display: none;
+}
+
+.header .navbar #close-navbar:hover {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.header .navbar a {
+    margin-right: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.header .navbar a:hover {
+    color: #0eb582;
+}
+
+.header .icons div {
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: #444;
+    margin-left: 1.5rem;
+}
+
+.header .icons div:hover {
+    color: #0eb582;
+}
+
+.header #menu-btn {
+    display: none;
+}
+.dropbtn {
+    color: white;
+    font-size: 12px;
+    border: none;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.language-picker__btn{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
+.language-picker__btn:hover{
+    color: mediumpurple;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    background-color: #000000;
+    color: white;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    font-size: 16px;
+
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #570060;
+}
+
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 2rem 5%;
+    }
+    section {
+        padding: 3rem 5%;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+    .header {
+        padding: 2rem;
+    }
+    section {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .dropdown-content {
+        background-color: #0c0c0c;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .dropdown-content a {
+       font-size: 16px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+    .heading {
+        font-size: 3rem;
+    }
+    .about .content .about-title {
+        font-size: 4rem;
+    }
+}

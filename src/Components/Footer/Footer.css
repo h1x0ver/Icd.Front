@@ -1,0 +1,123 @@
+.footer {
+    background: #000000;
+}
+
+
+.footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box h3 i {
+    color: #62206c;
+}
+
+.footer .box-container .box .share {
+    margin-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background-color: #720eb5;
+    color: #fff;
+    margin-right: .3rem;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+    background-color: #ff00b5;
+}
+
+.footer .box-container .box .link {
+    font-size: 1.7rem;
+    line-height: 2;
+    color: #ffffff;
+    padding: .5rem 0;
+    display: block;
+}
+.footer .box-container .box .link:hover{
+    text-decoration: none;
+}
+.box a:hover{
+    text-decoration: none;
+}
+.footer .box-container .box .link:hover {
+    color: #722800;
+    text-decoration: underline;
+}
+
+.footer-image{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.footer .box-container .box p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .email {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #ffffff;
+    margin-bottom: 1rem;
+}
+
+.footer .credit {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #444;
+    border-top: 0.1rem solid #ffffff;
+}
+
+.footer .credit span {
+    color: #ffffff;
+}
+.f-img-cont{
+    width: 100%;
+    max-height: 300px;
+
+}
+.f-img-cont img{
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+}
+.blck-img{
+    filter: brightness(70%);
+}
+.privacy{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 13px;
+
+}
+.fot-logo{
+    height: 70px;
+}
+.box a{
+    cursor: pointer;
+}

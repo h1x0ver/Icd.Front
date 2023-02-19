@@ -1,0 +1,150 @@
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about .image {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+}
+
+.about .image img {
+    width: 100%;
+}
+
+.about .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+    text-align: center;
+}
+
+.about .content .about-title {
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.about .content p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.about .content .icons-container {
+    margin-top: 1rem;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 2rem;
+}
+
+.about .content .icons-container .icons {
+    text-align: center;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    padding: 3rem 2rem;
+}
+
+.about .content .icons-container .icons img {
+    height: 5rem;
+    margin-bottom: .5rem;
+}
+.sl-img img{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    word-break: break-all;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.about .content .icons-container .icons h3 {
+    padding: .5rem 0;
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    color: #ffffff;
+}
+
+.about .content .icons-container .icons span {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #ffffff;
+}
+.teachers .slide {
+}
+
+.teachers .slide:hover .image img {
+    background: #0eb582;
+}
+
+.teachers .slide:hover .image .share {
+    bottom: 0;
+}
+
+.teachers .slide .image {
+    position: relative;
+    overflow: hidden;
+}
+
+.teachers .slide .image img {
+    background: #f0fdfa;
+    width: 100%;
+}
+
+.teachers .slide .image .share {
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+}
+
+.teachers .slide .image .share a {
+    font-size: 3rem;
+    margin: 0 1rem;
+    color: #fff;
+}
+
+.teachers .slide .image .share a:hover {
+    color: #0eb582;
+}
+
+.teachers .slide .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 1rem;
+    -ms-flex-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.teachers .slide .content h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.teachers .slide .content span {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #ffffff;
+}
